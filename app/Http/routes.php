@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Test methods of My_task class
+Route::get('test','My_task_controller@test_all');
