@@ -2,9 +2,23 @@
     Created on : 2015-9-6, 20:00:47
     Author     : Victoria
 */
+
 .base{
     background-color:#99cb84;
-    font-size:large;
-    
+    font-family: Verdana;
+    font-size:20px;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    margin: -100px 0 0 -200px;
+    top: 20%;
+    left: 50%;
+    border-style: groove;
+    padding: 25px;    
+}
+
+.button {
+    background-color:#449d44;
+    font-family: Verdana;
 }
 
