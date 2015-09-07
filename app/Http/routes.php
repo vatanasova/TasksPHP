@@ -17,3 +17,10 @@ Route::get('/', function () {
 
 //Test methods of My_task class
 Route::get('test','My_task_controller@test_all');
+
+Route::post('task/reverse','My_task_controller@reverse');
+Route::post('task/palindrome','My_task_controller@is_palindrome');
+Route::post('task/encrypt','My_task_controller@encrypt');
+Route::post('task/decrypt','My_task_controller@decrypt');
+
+Route::get('task','My_task_controller@index');
